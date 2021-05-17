@@ -1,0 +1,11 @@
+* C:\Users\kasia\Desktop\MOZA P1\WSB.asc
+RC1 1 2 1k
+RC2 2 0 {1k}
+
+V_AC 1 0 SINE(0 100m 1k) AC 1
+
+.tran 10m
+.SAVE V(1)
+*.options trtol 5
+*.backanno
+.end
